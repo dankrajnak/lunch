@@ -48,7 +48,7 @@
   });
 </script>
 
-<div class="flex flex-col my-10 min-h-full item-center">
+<div class="flex flex-col my-10 item-center">
   <div class="container space-y-4 w-1/2">
     <h1 class="h1">Add a Place</h1>
     <input
