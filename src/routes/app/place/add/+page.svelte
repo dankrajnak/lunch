@@ -28,7 +28,7 @@
           west: columbus.lng - 0.1,
         },
         componentRestrictions: { country: "us" },
-        types: ["restaurant", "cafe", "store"],
+        types: ["restaurant", "cafe"],
         fields: [
           "opening_hours",
           "photos",
