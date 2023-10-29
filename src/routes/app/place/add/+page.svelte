@@ -49,7 +49,7 @@
 </script>
 
 <div class="flex flex-col my-10 item-center">
-  <div class="container space-y-4 w-1/2">
+  <div class="container space-y-4 lg:w-1/2">
     <h1 class="h1">Add a Place</h1>
     <input
       bind:this={autoCompleteInput}
