@@ -28,15 +28,6 @@
 </script>
 
 <AppShell class="min-h-screen">
-  <AppBar slot="header">
-    <span slot="lead" />
-    <svelte:fragment slot="trail">
-      <buttton class="btn p-0" title="Sign Out">
-        <SignOutLogo />
-      </buttton>
-    </svelte:fragment>
-  </AppBar>
-
   <div
     class="flex items-center flex-col h-screen justify-center dark:bg-black/50"
   >
