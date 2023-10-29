@@ -56,6 +56,11 @@
       type="text"
       placeholder="Search for a place"
       class="w-full input variant-form-material"
+      on:click={() => {
+        if (place) {
+          autoCompleteInput.value = "";
+        }
+      }}
     />
     {#if place}
       <Place place={PlaceResultToLunchPlace(place)} showAddButton />
